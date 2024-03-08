@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .container{
+    display: flex;
+}
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+}
+h1 {
+    color: white;
+}
+
+#economy h2 {
+    color: green;
+}
+
+.creation-date{
+    color:darkgray
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+.section{
+    display: flex;
+    display: inline-flex;
+
+}
+.section article img{
+    height: 180px;
+}
+.section article{
+    width: 30%;
+}
+section {
+    padding: 16px 0;
+}
+
+section h2, .section article {
+    margin-bottom: 16px;
+}
+
+.section article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#economy {
+    background-color: rgba(0, 255, 255, 0.5);
+}
+#climate {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+#tech {
+    background-color: rgba(255, 0, 0, 0.1);
+}
